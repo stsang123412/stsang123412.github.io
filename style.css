@@ -1,6 +1,3 @@
-html {
-	
-}
 
 /* main */
 header{
@@ -11,7 +8,6 @@ header{
 	padding: 0.3em;
 	background: no-repeat center/cover url("https://puu.sh/uEzsn/fc9ddba4cc.jpg"); /*clean white*/
 }
-
 nav{
 	/*background-color: #edd2b8;*/
 	padding: 0.30em;
@@ -24,7 +20,6 @@ nav{
 nav li{
 	display: inline-block;
 }
-
 body{
   font-family: 'Comic Sans MS', sans-serif;
   background: no-repeat center/cover url("http://i.imgur.com/9OJ7EqJ.jpg");
@@ -38,7 +33,7 @@ h1{
 }
 h2{
 	font-size:3em;
-	text-align: left;
+	text-align: center;
 }
 .edu{
   border: 1.5px solid black ;
@@ -58,10 +53,23 @@ h2{
 	border: 2.5px solid gray;
 	background-color: #e3e9f2;
 }
+.aboutMeBox{
+	padding: 0.5em;
+	border: 2.5px solid gray;
+	background-color: #e3e9f2;
+	text-align: center;
+}
+.photoGallery{
+	padding: 0.5em;
+	border: 2.5px solid gray;
+	background-color: #e3e9f2;
+	text-align:center;
+}
 .contact_information_css{
 	margin: 3em;
 	background-color: #e3e9f2;
 }
+
 p {
   font-size: 1em;
 }
