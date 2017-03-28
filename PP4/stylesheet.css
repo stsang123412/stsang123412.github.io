@@ -1,0 +1,56 @@
+html {
+	line-height: 1;
+}
+body{
+	line-height:inherit;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*makes everything look pretty beginning here*/
+
+header, body, h1 {
+	display: block;
+	height: 100%;
+	margin: auto;
+}
+body{
+	background-color: #38474f;
+	width: 100%;
+	font-family: "Comic Sans MS", cursive, sans-serif	
+}
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	color:#788099;
+	height:1.5em;
+}
+footer{
+	text-align: center;
+	background-color: #b57112;
+}
+table {
+   	width: 1000px;
+    border-collapse: collapse;
+	margin: 0px auto;
+}
+th, td {
+	border: 1px solid orange;
+}
+th {
+	background-color: #0730b2;
+	color: #FFFFFF;
+    width: 150px;
+	height: 75px;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+td{
+	color: #FFFFFF;
+	background-color: #6b430b;
+	height: 50px;
+	text-align:center;
+}
