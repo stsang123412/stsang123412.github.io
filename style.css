@@ -27,13 +27,19 @@ body{
   margin-left:20%;
   /*background-color: #e3e9f2;*/
 }
+@media screen and (min-width: 1024px){
 h1{
 	font-size:4em;
 	text-align: center;
 }
+}
+
 h2{
 	font-size:3em;
 	text-align: center;
+}
+p {
+  font-size: 1em;
 }
 .edu{
   border: 1.5px solid black ;
@@ -70,9 +76,7 @@ h2{
 	background-color: #e3e9f2;
 }
 
-p {
-  font-size: 1em;
-}
+
 footer{
   background-color: #5fdec3;
   color: #000000;
