@@ -1,0 +1,57 @@
+/*start your css here*/
+/*Stephan Tsang CSS PP6*/
+#main-navbar{
+	background-color:blue;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+}
+#navbar-container ul{
+	display:block;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	position:relative;
+	float:left;
+}
+#navbar-container{
+	left:50;
+	float:left;
+	position:relative;
+}
+#navbar-container ul li {
+	display:block;
+	float:left;
+	padding:10px 20px;
+}
+#navbar-container a{
+	color:#fff;
+	text-decoration:none;
+}
+#onpage a {
+  text-decoration: underline overline;
+
+}
+#sidebar{
+	height:100%;
+	width:20%;
+	background-color:red;
+	right:0%;
+	position:fixed;
+}
+#sidebar ul{
+	list-style-type:none;
+	text-align:center;
+	padding:0%;
+}
+#sidebar ul li {
+	display:block;
+	padding:15px 0;
+}
+#sidebar a{
+	color: #fff;
+	text-decoration:none;
+}
+#sidebar a:active{
+	background-color:#000;
+}
