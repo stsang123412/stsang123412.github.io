@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lab 3 Stephan Tsang</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="screen.css">
+  <link rel="stylesheet" href="normalize.css">
+  <body >
+      <h1> Sample Form </h1>
+      <form method ="POST">
+        <fieldset name="Personal Info">
+        <legend>Sign Up</legend>
+          <p>
+            <label>First Name: <input type="text" name= "firstname_Field"></label>
+		  </p>
+		  <p>
+            <label>Last Name: <input type ="text" name="lastname_Field"></label>
+          </p>
+          <p>
+            <label>Phone Number: <input type="tel" name="phone_field"></label>
+          </p>
+          <p>
+            <label> Email address: <input type="email" name="email_field"></label>
+          </p>
+			<label> Date of Birth: </label>
+            <input type="date" id="birthday" name="birthday" required>
+          <p>
+            <input type="hidden" name="hidden_field">
+          </p>
+          <div>
+            <input type ="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+	  <footer>
+	    <p>Stephan Tsang, 9/18/17, ITM-362</p>
+	  </footer>
+  </body>
+</html>
