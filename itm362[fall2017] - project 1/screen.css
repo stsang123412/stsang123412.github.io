@@ -1,0 +1,22 @@
+body{
+	font-family: Arial;
+	display: block;
+	text-align:center;
+	font-weight: bold;
+	color: #000000;
+	background-color: #C0C0C0;
+	background-image: url("https://energy.gov/sites/prod/files/styles/borealis_default_hero_respondlarge/public/computer%20tablet%20phone_0.jpg?itok=nMdyLFF4");
+
+}
+h2{
+	text-align:center;
+	font-size: .75em;
+	font-weight: bold;
+	color: #D3D3D3;
+	font-family: Arial;
+	
+}
+legend{
+	text-align:center;
+	font-size:1.5em;
+}
